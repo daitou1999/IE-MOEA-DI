@@ -7,7 +7,7 @@ from pymoo.indicators.gd_plus import GDPlus
 from pymoo.indicators.hv.exact import ExactHypervolume  # Exact calculation for low dimensions
 from pymoo.indicators.hv.approximate import ApproximateHypervolume
 
-PLATEMO_PATH = "C:/Users/16482/Desktop/Python2/PlatEMO-master/PlatEMO-master/PlatEMO"
+PLATEMO_PATH = "./PlatEMO-master/PlatEMO-master/PlatEMO"
 algorithm_name = "IE-MOEA/DI"
 problem_name = "WFG9_3"
 n_var = 30
